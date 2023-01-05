@@ -167,6 +167,9 @@ nav ul li a {
 .what-i-do {
     padding: 0px 190px 130px 190px;
 }
+.what-i-do .section-description{
+    color: #474747;
+}
 
 /* end what i do section */
 
@@ -204,7 +207,7 @@ nav ul li a {
     padding-bottom: 50px;
     margin-top: 50px;
     gap: 100px;
-    border-bottom: 1px solid #474747;
+    border-bottom: 1px solid #757575;
 }
 
 .border-none {
@@ -213,10 +216,14 @@ nav ul li a {
 
 .summary-item-title {
     margin-bottom: 30px;
+    font-size: 30px;
+    color: #474747;
 }
 
 .summary-title {
     margin-bottom: 15px;
+    font-size: 25px;
+    color: #757575;
 }
 
 .summary-from {
@@ -252,6 +259,7 @@ footer {
 .footer-contact-description{
     margin-top: 30px;
     margin-bottom: 30px;
+    color: #474747;
 }
 .footer-contact a{
     text-decoration: none;
