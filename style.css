@@ -1,6 +1,261 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* header css */
+
+header {
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+
+/* navbar css */
+nav {
+    margin: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-title span {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.primary-btn {
+    width: 150px;
+    height: 44px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.primary-btn:hover {
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+/* end navbar css */
+
+/* banner section */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.banner-description .banner-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-description .owner-name {
+    font-weight: 700;
+    font-size: 85px;
+    color: black;
+    padding: 20px 0;
+}
+
+.banner-description p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.banner-description .contact {
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    margin-left: 10px;
+    transition: .5s ease;
+}
+
+.banner-description .contact:hover {
+    background-color: #FD6E0A;
+    color: white;
+}
+
+/* end banner section */
+/* end header CSS */
+
+/* main section */
+
+/* about me section */
+.about-me-container {
+    margin: 100px 150px;
+}
+
+.about-me {
+    padding: 130px 190px;
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-me .section-description {
+    text-align: center;
+    color: #474747;
+    margin-bottom: 50px;
+}
+
+.about-me ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.about-me .info-head {
+    color: #474747;
+}
+
+.about-me .info {
+    font-weight: 700;
+    color: #474747;
+}
+
+/* end about me section */
+
+/* what i do section */
+.what-i-do-container {
+    margin: 0px 150px;
+}
+
+.what-i-do {
+    padding: 0px 190px 130px 190px;
+}
+
+/* end what i do section */
+
+/* skill section */
+.skill-container {
+    margin: 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.skill-container .skill {
+    width: 260px;
+}
+
+.skill-head {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* end skill section */
+
+/* summary of resume section */
+.summary-container {
+    margin-top: 150px;
+    padding: 0 190px;
+}
+.summary-container .section-title{
+    margin-bottom: 100px;
+}
+
+.summary-items {
+    display: flex;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    gap: 100px;
+    border-bottom: 1px solid #474747;
+}
+
+.border-none {
+    border: none;
+}
+
+.summary-item-title {
+    margin-bottom: 30px;
+}
+
+.summary-title {
+    margin-bottom: 15px;
+}
+
+.summary-from {
+    margin-bottom: 30px;
+}
+
+.under-summary {
+    text-align: center;
+}
+
+/* end summary of resume section */
+
+/* footer section */
+footer {
+    margin-top: 120px;
+    background: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 130px 190px;
+}
+
+.footer-form input, textarea {
+    border: none;
+    width: 461px;
+    height: 64px;
+    padding: 0 20px;
+    outline: none;
+}
+.footer-contact-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer-contact a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+/* end footer section */
+/* end main section */
